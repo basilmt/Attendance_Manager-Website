@@ -1,0 +1,104 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 140px auto 10px auto;
+}
+.button {
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.text {
+    font-size: x-large;
+    width: fit-content;
+    margin: auto;
+}
+.button {
+    cursor: pointer;
+}
+.users {
+    padding: 20px;
+    border-style: solid;
+    width: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.name, .value {
+    padding: 10px;
+}
+.name {
+    font-size: larger;
+}
+.value {
+    margin-left: 20px;
+}
+label {
+    font-size: large;
+}
+input {
+    width: 93%;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    margin-top: 7px;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: white;
+    box-shadow: 0 19px 3bpx rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.logo{
+    width: 80px;
+    height: auto;
+    padding: 10px 0px;
+}
+.nav .links a{
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.nav .links .mainlink{
+    color: tomato;
+}
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.logoName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-weight: bold;
+
+}
+.name div{
+    margin-inline: auto;
+}
