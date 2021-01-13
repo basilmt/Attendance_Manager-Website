@@ -15,7 +15,7 @@ btnIndex.addEventListener('click', function(){
             var postData = {};
             postData[inx] = true;
             firebase.database().ref('new').update(postData);
-            post.index = 8 + 1;
+            post.index = inx + 1;
           }
           return post;
     });
